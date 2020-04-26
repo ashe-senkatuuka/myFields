@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./custom.css">
+    <title>Simple Javascript Form Validation</title>
+</head>
+<body>
+    <form id="userRegistration" action="/" method="POST">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" name="inputName">
+            <div class="error" id="nameErr"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputNIN">National ID Number</label>
+            <input type="text" class="form-control" id="inputNIN" name="inputTel">
+            <div class="error" id="ninErr"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputTel">Telephone</label>
+          <input type="text" class="form-control" id="inputTel" name="inputTel">
+          <div class="error" id="telErr"></div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Sign UP</button>
+      </form>
+      <script src="./utilities.js"></script>
+      <script src="./validation.js"></script>
+</body>
+</html>

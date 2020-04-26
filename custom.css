@@ -1,0 +1,12 @@
+.error {
+    color: red;
+    font-size: 90%;
+  }
+  
+  .invalid-outline{
+    border: 1px solid red;
+  }
+  
+  .valid-outline{
+    border: 1px solid green;
+  }
